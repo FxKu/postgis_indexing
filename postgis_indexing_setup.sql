@@ -384,7 +384,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_1000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -432,7 +432,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_10000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -480,7 +480,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_100000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -528,7 +528,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_1000000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -576,7 +576,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_10000000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -624,7 +624,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_100000000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
@@ -672,7 +672,7 @@ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE st_intersects_pts_1000000000000(
   exp_id INTEGER,
   index_type TEXT,
-  index_params JSONB DEFAULT '{}',
+  index_params JSONB DEFAULT '{}'::jsonb,
   is_set_table_stats BOOLEAN DEFAULT FALSE,
   is_clustered_table BOOLEAN DEFAULT FALSE
   ) AS
